@@ -1,0 +1,41 @@
+# Build output
+target/
+build/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Environment files, secrets and properties overrides
+*.env
+.env*
+application-local.properties
+application-secret.properties
+
+# Logs
+logs/
+*.log
+
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code and OS
+.vscode/
+.DS_Store
+Thumbs.db
